@@ -1,0 +1,127 @@
+                                                             18th Fab Assignment
+                                                                                
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+Q1. What is an API? Give an example, where an API is used in real life.
+
+
+->> API stands for Application Programming Interface,with the use of API we can interact two apps with each other. 
+
+->> An example of an API used in real life is the Google Maps API. This API allows developers to integrate Google Maps into their own applications.           Developers can use the API to add features like interactive maps, directions, and location search to their own websites or mobile apps. For               example, when you use an app like Uber or Lyft to get directions to your destination, you are using the Google Maps API.
+
+_________________________________________________________________________________________________________________________________________________________
+
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+Q2. Give advantages and disadvantages of using API.
+
+
+* Advantages
+
+1. We can reduce our code and functionality with the help of using API.
+
+2. API provides costamization.
+
+3. API provides standard way for different application to communicate with each other.
+
+4. We can increase company revanue with provide access of features by charging of them usage.
+
+
+* Disadvantages
+
+1. APIs can create security risks if not implemented properly. 
+
+2. APIs can be complex and require specialized knowledge to implement and maintain.
+
+3. APIs are often dependent on third-party providers, which can create dependencies and potential issues if the provider changes or goes out of business.
+
+4. APIs can create performance issues if not optimized properly.
+
+_________________________________________________________________________________________________________________________________________________________
+
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+Q3. What is a Web API? Differentiate between API and Web API.
+
+->> Web API is a type of API wich use HTTP protocol to interact with web based software application.
+
+
+* Differentiate between API and Web API.
+
+1. Protocol : API use TCP/IP protocol and web API use http protocol.
+
+2. Access: APIs can be accessed by different types of applications, including desktop, mobile, and web applications. Web APIs are specifically designed      to be accessed by web-based applications.
+
+3. Format: APIs can use different data formats to exchange data between applications, including XML, JSON, and CSV. Web APIs typically use JSON or XML as    their primary data format.
+
+
+4. Transport mechanism: APIs can be transported over different communication channels, including local network and direct communication, whereas Web APIs    are transported over the internet.
+
+_________________________________________________________________________________________________________________________________________________________
+
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+
+
+* REST Architecture
+
+->> It use http protocol for communicate between client and server.
+
+->> It is known for its simplicity and flexiblity.
+
+->> REST architecture use http verbs like get,post,put,delete to perform CRUD(creat,read,update,delete).
+
+
+* SOAP Architecture
+
+->> SOAP Architecture is XML based architecture.
+
+->> It is very complex but,it is known for its privacy.
+
+->> SOAP Architecture use http,smtp and tcp protocol for tansport.
+
+
+
+* Shortcomings of SOAP
+
+1. Complex : SOAP is a complex protocol that requires a lot of boilerplate code to set up. 
+
+2. Overhead: SOAP messages can be quite large due to their XML format, which can lead to performance issues and network congestion.
+
+3. Limited browser support: SOAP is not supported by all browsers, which can make it difficult to build web-based applications that rely on SOAP            services.
+
+_________________________________________________________________________________________________________________________________________________________
+
+
+
+_________________________________________________________________________________________________________________________________________________________
+
+Q5. Differentiate between REST and SOAP.
+
+
+1. Protocol: REST uses HTTP protocol for communication between client and server, whereas SOAP uses XML protocol for communication.
+
+2. Message format: REST messages are generally sent in plain text format (JSON, XML, etc.), whereas SOAP messages are sent in XML format.
+
+
+
+3. Design: REST is based on the principles of a client-server model, statelessness, and caching, while SOAP is based on a predefined contract that          specifies the operations and data types that are supported by the service.
+
+4. Scalability: REST is more scalable than SOAP because it has a simple and lightweight architecture, whereas SOAP has a more complex architecture that      can make it difficult to scale.
+
+5. Performance: REST is generally faster and has lower overhead than SOAP because it uses a simple message format and does not require as much processing    power to parse the messages.
+
+6. 
+
+
+
+
